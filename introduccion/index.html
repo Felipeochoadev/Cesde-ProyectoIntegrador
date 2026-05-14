@@ -1,15 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CineMax CESDE</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>LOGO: CineMax CESDE</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Cartelera</a></li>
+                    <li><a href="#">Promociones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <article>
+                    <h2>HERO</h2>
+                    <button>Ver Trailer</button>
+                </article>
+            </section>
+            <section class="cartelera">
+                <h2>Cartelera</h2>
+                <article class="movie-card">
+                    <figure>
+                        <img src="https://placehold.co/250x200" alt="Poster">
+                    </figure>
+                    <h3>Titulo 1</h3>
+                    <p>Genero / Duración</p>
+                    <p>Horarios</p>
+                </article>
+                <article class="movie-card">
+                    <figure>
+                        <img src="https://placehold.co/250x200" alt="Poster">
+                    </figure>
+                    <h3>Titulo 2</h3>
+                    <p>Genero / Duración</p>
+                    <p>Horarios</p>
+                </article>
+                <article class="movie-card">
+                    <figure>
+                        <img src="https://placehold.co/250x200" alt="Poster">
+                    </figure>
+                    <h3>Titulo 3</h3>
+                    <p>Genero / Duración</p>
+                    <p>Horarios</p>
+                </article>
+            </section>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Integrador</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+            <section class="reserva-asientos">
+                <article class="form-container">
+                    <h2>Formulario de venta</h2>
+                    <form>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" value="Felipe Ochoa">
 
-<body>
+                        <label for="pelicula">Película</label>
+                        <select id="pelicula">
+                            <option value="1">Señor de los anillos</option>
+                        </select>
 
-</body>
+                        <label for="boletos">Boletos</label>
+                        <input type="number" id="boletos" value="2">
 
+                        <label for="edad">Edad</label>
+                        <input type="number" id="edad" value="35">
+
+                        <button type="button">RESERVAR</button>
+                    </form>
+                </article>
+
+                <article class="mapa-asientos">
+                    <h2>Mapa de asientos</h2>
+                    <header class="pantalla">PANTALLA</header>
+                    <section class="asientos">
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    </section>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <h2>FOOTER</h2>
+        </footer>
+    </body>
 </html>
