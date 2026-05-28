@@ -22,6 +22,7 @@ header h1 {
     display: inline-block;
     width: 30%;
     text-align: left;
+    font-weight: 800;
 }
 
 .texto_oro {
@@ -46,10 +47,15 @@ nav ul li {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
+    padding: 0.8em;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+    border-radius: 0.5em;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+    background: lightgrey;
 }
 
 .hero {
