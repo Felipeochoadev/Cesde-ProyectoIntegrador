@@ -61,55 +61,87 @@
                 </article>
             </section>
             <section class="cartelera">
-                <h2>Cartelera</h2>
                 <article class="movie-card">
                     <figure>
-                        <img src="https://placehold.co/250x200" alt="Poster">
+                        <img src="img/lordrings.jpg" alt="Deadpool & Wolverine">
                     </figure>
-                    <h3>Titulo 1</h3>
-                    <p>Genero / Duración</p>
-                    <p>Horarios</p>
+                    <section class="meta-info">
+                        <span class="duration">🕒 178 min</span>
+                        <span class="rating">⭐ 8.9</span>
+                    </section>
+                    <h3>El Señor de los Anillos: La Comunidad del Anillo</h3>
+                    <p>Fantasía, Aventura, Acción</p>
+                    <section class="precio-boleto">
+                        <span>Precio Boleto</span>
+                        <strong>$15,500 COP</strong>
+                    </section>
                 </article>
                 <article class="movie-card">
                     <figure>
-                        <img src="https://placehold.co/250x200" alt="Poster">
+                        <img src="img/InsideOut2.jpg" alt="Deadpool & Wolverine">
                     </figure>
-                    <h3>Titulo 2</h3>
-                    <p>Genero / Duración</p>
-                    <p>Horarios</p>
+                    <section class="meta-info">
+                        <span class="duration text-muted">🕒 100 min</span>
+                        <span class="rating">⭐ 8.6</span>
+                    </section>
+                    <h3>Inside Out 2</h3>
+                    <p>Animación, Comedia, Aventura</p>
+                    <section class="precio-boleto">
+                        <span>Precio Boleto</span>
+                        <strong>$13,500 COP</strong>
+                    </section>
                 </article>
                 <article class="movie-card">
                     <figure>
-                        <img src="https://placehold.co/250x200" alt="Poster">
+                        <img src="img/Interstellar.webp" alt="Deadpool & Wolverine">
                     </figure>
-                    <h3>Titulo 3</h3>
-                    <p>Genero / Duración</p>
-                    <p>Horarios</p>
+                    <section class="meta-info">
+                        <span class="duration text-muted">🕒 169 min</span>
+                        <span class="rating">⭐ 9.0</span>
+                    </section>
+                    <h3>Interstellar</h3>
+                    <p>Ciencia Ficción, Drama, Aventura</p>
+                    <section class="precio-boleto">
+                        <span>Precio Boleto</span>
+                        <strong>$17,500 COP</strong>
+                    </section>
+                </article>
+                <article class="movie-card">
+                    <figure>
+                        <img src="img/DeadpoolWolverine.jpeg" alt="Deadpool & Wolverine">
+                    </figure>
+                    <section class="meta-info">
+                        <span class="duration text-muted">🕒 127 min</span>
+                        <span class="rating">⭐ 8.9</span>
+                    </section>
+                    <h3>Deadpool & Wolverine</h3>
+                    <p>Acción, Comedia, Ciencia Ficción</p>
+                    <section class="precio-boleto">
+                        <span>Precio Boleto</span>
+                        <strong>$17,500 COP</strong>
+                    </section>
                 </article>
             </section>
-
             <section class="reserva-asientos">
                 <article class="form-container">
                     <h2>Formulario de venta</h2>
                     <form>
                         <label for="nombre">Nombre</label>
                         <input type="text" id="nombre" value="Felipe Ochoa">
-
                         <label for="pelicula">Película</label>
                         <select id="pelicula">
-                            <option value="1">Señor de los anillos</option>
+                            <option value="1">El Señor de los Anillos: La Comunidad del Anillo</option>
+                            <option value="2">Inside Out 2</option>
+                            <option value="3">Interstellar</option>
+                            <option value="4">Deadpool & Wolverine</option>
                         </select>
-
                         <label for="boletos">Boletos</label>
                         <input type="number" id="boletos" value="2">
-
                         <label for="edad">Edad</label>
                         <input type="number" id="edad" value="35">
-
                         <button type="button">RESERVAR</button>
                     </form>
                 </article>
-
                 <article class="mapa-asientos">
                     <h2>Mapa de asientos</h2>
                     <header class="pantalla">PANTALLA</header>
@@ -123,8 +155,39 @@
                 </article>
             </section>
         </main>
-        <footer>
-            <h2>FOOTER</h2>
+        <footer class="footer_principal">
+            <section class="footer_contenido">
+                <article class="footer_columna info_cine">
+                    <h2>
+                        <i class="bi bi-film me-2"></i>
+                        CINEMAX
+                        <span class="texto_oro">CESDE</span>
+                    </h2>
+                    <p>La mejor experiencia cinematográfica del Valle de Aburrá. Consolidando el conocimiento de desarrollo web en un proyecto integrador premium.</p>
+                </article>
+                <article class="footer_columna integrantes">
+                    <h3>INTEGRANTES DEL PROYECTO</h3>
+                    <ul>
+                        <li>Luis Felipe Ochoa Cardona <span class="texto_id">(1128435183)</span></li>
+                        <li>David Ignacio Toro Urrego <span class="texto_id">(1015276543)</span></li>
+                        <li>John Sebastian Madera Cardona <span class="texto_id">(1020105254)</span></li>
+                    </ul>
+                </article>
+                <article class="footer_columna asignatura">
+                    <h3>ASIGNATURA</h3>
+                    <p>Proyecto Integrador - Martes Noche</p>
+                    <p class="grupo_oro">Grupo G5N 4041</p>
+                    <section class="redes_sociales">
+                        <a href="#"><i class="bi bi-github"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </section>
+                </article>
+            </section>
+            <hr class="footer_separador">
+            <section class="footer_copyright">
+                <p>&copy; 2026 CineMax CESDE. Todos los derechos reservados. Diseñado por Desarrolladores CESDE.</p>
+            </section>
         </footer>
     </body>
 </html>
